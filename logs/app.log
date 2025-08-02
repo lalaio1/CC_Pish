@@ -1,0 +1,26 @@
+2025-08-02 13:17:39,477 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.114:5000
+2025-08-02 13:17:39,477 - [33mPress CTRL+C to quit[0m
+2025-08-02 13:17:58,066 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.114:5000
+2025-08-02 13:17:58,066 - [33mPress CTRL+C to quit[0m
+2025-08-02 13:18:15,148 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.114:5000
+2025-08-02 13:18:15,148 - [33mPress CTRL+C to quit[0m
+2025-08-02 13:18:41,962 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.114:5000
+2025-08-02 13:18:41,963 - [33mPress CTRL+C to quit[0m
+2025-08-02 13:20:31,484 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.114:5000
+2025-08-02 13:20:31,484 - [33mPress CTRL+C to quit[0m
+2025-08-02 13:20:36,201 - 127.0.0.1 - - [02/Aug/2025 13:20:36] "POST /api/verify HTTP/1.1" 200 -

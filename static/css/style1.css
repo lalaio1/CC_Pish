@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+        }
+        
+        .card {
+            perspective: 1000px;
+            width: 350px;
+            height: 220px;
+        }
+        
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.8s;
+        }
+        
+        .card.flipped .card-inner {
+            transform: rotateY(180deg);
+        }
+        
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-back {
+            transform: rotateY(180deg);
+        }
+        
+        .card-logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            filter: brightness(0) invert(1);
+            height: 30px;
+        }
+        
+        .card-chip {
+            width: 40px;
+            margin-bottom: 15px;
+        }
+        
+        .card-number {
+            letter-spacing: 2px;
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .card-details {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .card-cvv {
+            background: white;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+            text-align: right;
+        }
+        
+        .card-stripe {
+            height: 40px;
+            background: #333;
+            margin-top: 30px;
+        }
+        
+        .card-signature {
+            background: #e0e0e0;
+            color: #333;
+            padding: 3px 10px;
+            border-radius: 4px;
+            margin-top: 15px;
+            display: inline-block;
+            font-style: italic;
+            font-size: 13px;
+        }
+        
+        .security-badge {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .input-field {
+            transition: all 0.3s;
+        }
+        
+        .input-field:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+        }
+        
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
